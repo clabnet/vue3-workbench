@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "@antfu"
+  ],
+  "rules": {
+    "no-console": "off",
+    "@typescript-eslint/ban-ts-ignore": "off",
+    "vue/html-self-closing": [
+      "off",
+      {
+        "html": {
+          "void": "always",
+          "normal": "never",
+          "component": "always"
+        },
+        "svg": "always",
+        "math": "always"
+      }
+    ],
+    "vue/component-tags-order": "off",
+    "vue/one-component-per-file": "off",
+    "react/display-name": "off"
+    // "react/no-unknown-property": "off"
+  }
+}
